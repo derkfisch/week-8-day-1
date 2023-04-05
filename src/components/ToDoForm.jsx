@@ -14,7 +14,6 @@ export default function ToDoForm({ addToList }) {
         <form action="" onSubmit={handleClick}>
             <h1 className="text-center">To Do</h1>
             <div className="form-">
-                <label htmlFor="task">Enter task</label>
                 <input className="form-control" type="text" name="task" placeholder='What would you like to do..?' />
                 <input type="submit" value="Add Task" className='btn btn-outline-primary w-100 mt-3' />
             </div>
